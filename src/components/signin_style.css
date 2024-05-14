@@ -1,0 +1,67 @@
+.signin-container{
+    display: flex;
+    width:100vw;
+    height:100vh;
+    background:linear-gradient(to right,rgb(241, 238, 238),rgb(132, 131, 131));
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.signin-center-cointaner{
+    border-radius: 8%;
+    width:52vw;
+    height:70vh;
+    display: flex;
+    background:linear-gradient(to left,black,rgb(104, 102, 102));
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.signin-left-cointaner{
+    border-top-left-radius: 8%;
+    border-bottom-left-radius: 8%;
+    border-top-right-radius: 18%;
+    border-bottom-right-radius: 18%;
+    width:55%;
+    height:100% ;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.signin-heading{
+    margin-top: 10%;
+    width:100%;
+    height:15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.signin-form{
+    margin: 5%;
+    align-items: center;
+}
+.form-group{
+margin: 8%;
+font-size: 1.2rem;
+}
+.form-group input{
+    font-size:1rem;
+    padding: 2%;
+    width:90%;
+    height: 17%;
+    background-color: rgb(215, 218, 218);
+    border-radius: 5%;
+    border: none;
+}
+.signin-submit-button{
+    width:40%;
+    height: 5vh;
+    border:none;
+    background-color: black;
+    color: white;
+    margin-left: 18%;
+}
+.signin-right-cointaner{
+    border-radius: 8%;
+    width:45%;
+    height:100% ;
+    
+}
