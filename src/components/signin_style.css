@@ -58,10 +58,44 @@ font-size: 1.2rem;
     background-color: black;
     color: white;
     margin-left: 18%;
+    border-radius: 7%;
+    font-size: 1.05rem;
 }
 .signin-right-cointaner{
     border-radius: 8%;
     width:45%;
     height:100% ;
     
+}
+.signin-right-cointaner-heading{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+    font-size: 1.1rem;
+}
+.signin-right-cointaner-paragraph{
+    color: white;
+    font-size: 1.1rem;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 160%;
+    text-align: center;
+}
+.signin-login-button{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-top: 10%;
+}
+.signin-login-button-button{
+width: 35%;
+height: 5vh;
+border: none;
+border-radius: 5%;
+font-size: 1.05rem;
 }

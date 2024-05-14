@@ -34,7 +34,17 @@ export default function signin() {
 </div>
 
         </div>
-        <div className="signin-right-cointaner"></div>
+        <div className="signin-right-cointaner">
+            <div className="signin-right-cointaner-heading">
+                <h1>Hello Friend!</h1>
+            </div>
+            <div className="signin-right-cointaner-paragraph">
+                <p>Begin Your Blogging Adventure on Your Platform!</p>
+            </div>
+            <div className="signin-login-button">
+                <button  className="signin-login-button-button">Login</button>
+            </div>
+        </div>
       </div>
     </div>
   )
