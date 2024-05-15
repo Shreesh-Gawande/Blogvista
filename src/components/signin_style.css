@@ -60,6 +60,7 @@ font-size: 1.2rem;
     margin-left: 18%;
     border-radius: 7%;
     font-size: 1.05rem;
+    cursor: pointer;
 }
 .signin-right-cointaner{
     border-radius: 8%;
@@ -98,4 +99,5 @@ height: 5vh;
 border: none;
 border-radius: 5%;
 font-size: 1.05rem;
+cursor: pointer;
 }
