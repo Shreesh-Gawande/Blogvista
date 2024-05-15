@@ -1,0 +1,101 @@
+.login-cointaner{
+    width:100vw;
+    height: 100vh;
+    background:linear-gradient(to right,rgb(132, 131, 131),rgb(241, 238, 238));
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-center-cointaner{
+    width:52vw;
+    height:70vh;
+    background:linear-gradient(to right,black,rgb(104, 102, 102));
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8%;
+}
+.login-left-cointaner{
+    border-radius: 8%;
+width:45%;
+height:100% ;
+}
+.login-left-cointaner-heading{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+    font-size: 1.1rem;
+}
+.login-left-cointaner-parragraph{
+    color: white;
+    font-size: 1.1rem;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 160%;
+    text-align: center;
+}
+.login-left-cointaner-button{
+    display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-top: 10%;
+}
+.login-left-cointaner-button-button{
+    width: 35%;
+height: 5vh;
+border: none;
+border-radius: 5%;
+font-size: 1.05rem;
+cursor: pointer;
+}
+.login-left-cointaner-button-button:hover{
+    background-color: rgb(187, 189, 190);
+}
+.login-right-cointaner{
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 8%;
+    border-top-left-radius: 18%;
+    border-bottom-left-radius: 18%;
+    width:55%;
+    height:100% ;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.login-heading{
+    margin-top: 15%;
+    width:100%;
+    height:15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form{
+    margin: 8%;
+font-size: 1.2rem;
+}
+.form-group input{
+    font-size:1rem;
+    margin: 4%;
+    padding: 2%;
+    width:90%;
+    height: 17%;
+    background-color: rgb(215, 218, 218);
+    border-radius: 5%;
+    border: none;
+}
+.login-submit-button{
+    width:40%;
+    height: 5vh;
+    border:none;
+    background-color: black;
+    color: white;
+    margin-left: 18%;
+    margin-top: 3%;
+    border-radius: 7%;
+    font-size: 1.05rem;
+    cursor: pointer;
+}
